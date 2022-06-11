@@ -1,0 +1,4 @@
+instalar{
+    tailwind
+    phospor icons
+}
