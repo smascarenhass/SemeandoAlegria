@@ -1,15 +1,16 @@
-import ButtonDonate from "./Components/Buttons/ButtonDonate"
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import ButtonDonate from './Components/Buttons/ButtonDonate';
+import Home from './Pages/Home';
+import PgDonates from "./Pages/pgDonates";
+
 
 function App() {
 
   return (
     <div>
-     
-      <h1 className="left-3 font-extrabold text-4xl"> Semeando Alegria </h1>
+      <h1>Semeando Vidas</h1>
 
-      <div>
-        <ButtonDonate />
-      </div>
+      <ButtonDonate/>
 
     </div>
   )
