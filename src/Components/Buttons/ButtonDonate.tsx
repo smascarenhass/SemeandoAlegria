@@ -1,4 +1,4 @@
-import { Heart, Activity, WhatsappLogo, Bank } from 'phosphor-react';
+import { Heart, Activity, } from 'phosphor-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -17,11 +17,11 @@ const ButtonDonate = () => {
         { isButtonOpen ?
         //Painel aberto
         
-         <div style={{backgroundColor:'#506266',}} 
-         className='flex flex-col justify-center items-center rounded-xl m-2 w-50 h-50'>
+         <div style={{marginTop: -240 ,marginLeft: 20 , backgroundColor:'#FFFFFF', borderWidth: 2, borderColor: '#001542'}} 
+         className='fixed flex flex-col justify-center items-center rounded-xl m-2 w-50 h-50 transition-all duration-500 ease-in-out'>
           
           <div className='flex flex-row justify-center m-2'>
-            <Activity size={20}/><h1 className='text-white font-bold ml-2'>Sua ajuda é vital</h1>
+            <Activity size={20}/><h1 className='text-yellow-500 font-bold ml-2'>Sua ajuda é vital</h1>
             </div>
 
             <p className='m-5'>Nosso objetivo é levar sorriso, com sossiso no rosto!</p>
@@ -39,6 +39,7 @@ const ButtonDonate = () => {
          }
 
         <button onClick={OCButton} className='
+        fixed
         flex
         items-center
         rounded-full
@@ -46,9 +47,9 @@ const ButtonDonate = () => {
         h-12
         group
         '
-        style={{ backgroundColor:'#10454F', borderColor: '#506266', borderWidth: 2,}}
+        style={{marginTop: -40, backgroundColor:'yellow', borderColor: '#506266', borderWidth: 2,}}
         >
-          <span className='max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-linear'>
+          <span className='font-bold max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-linear'>
              Ajude-nos <span className='p-1'></span>
               </span>
 

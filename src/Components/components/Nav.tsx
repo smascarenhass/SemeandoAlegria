@@ -1,23 +1,27 @@
-import { ArrowDown } from 'phosphor-react';
+import { ReactElement, JSXElementConstructor, ReactFragment, ReactPortal } from 'react';
+import { Link } from 'react-router-dom';
+import ButtonsEntrar from '../Buttons/ButtonEntrar';
 
-const Nav = () => {
+const Nav = (props: { text: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | ReactFragment | ReactPortal | null | undefined; }) => {
   return(
     <div 
     className="w-full h-4/12"
     style={{
-        position: 'sticky',
+      position: 'fixed',
         backgroundColor: 'white',
 
     }}>
 
         <div className="flex flex-row items-center justify-between">
-            <img src="https://semeandoalegria.org.br/wp-content/uploads/2017/09/logo-semeandoalegria_150.png"
-             width={50}
-             className='m-5'
-              />
-            <h1 className='font-bold'>Ações que transformam. Resultados que emocionam.</h1>
+            <Link to='/Home'>
+              <img src="https://semeandoalegria.org.br/wp-content/uploads/2017/09/logo-semeandoalegria_150.png"
+               width={50}
+               className='m-5'
+                />
+            </Link>
+            <h1 className='font-bold'>{props.text}</h1>
 
-            <button className="m-5 flex flex-row items-center">Entrar <ArrowDown size={10}/> </button>
+            <div className='mt-5 items-center justify-center'><ButtonsEntrar/></div>
         </div>
     </div>
   );

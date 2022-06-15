@@ -5,13 +5,16 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './main.css';
 import PgDonates from './Pages/pgDonates';
 import Home from './Pages/Home';
+import PgCadastrar from './Pages/PgCadastrar';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
   <Routes>
-    <Route path="/  " element={<App />} />
+    <Route path="/" element={<App />} />
     <Route path="/Home" element={<Home />} />
     <Route path="/PgDonates" element={<PgDonates />} />
+    <Route path="/PgCadastrar" element={<PgCadastrar />} />
+
   </Routes>
 </BrowserRouter>
 )
