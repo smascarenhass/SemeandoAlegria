@@ -1,19 +1,16 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import ButtonDonate from './Components/Buttons/ButtonDonate';
-import Home from './Pages/Home';
-import PgDonates from "./Pages/pgDonates";
+import Home from "./Pages/Home";
 
+import { BrowserRouter, Route, Routes, Link} from 'react-router-dom'
 
-function App() {
+ const App = () => {
+  return(
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
 
-  return (
-    <div>
-      <h1>Semeando Vidas</h1>
+      </Routes>
+  </BrowserRouter>
+  );
+};
 
-      <ButtonDonate/>
-
-    </div>
-  )
-}
-
-export default App
+export default App;
