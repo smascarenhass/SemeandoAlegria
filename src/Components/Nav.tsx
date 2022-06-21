@@ -1,7 +1,9 @@
-import { CardsNavMissao, CardsNavValores, CardsNavVisao } from "./CardsNav";
+import { CardsNavMissao, CardsNavSobreNos, CardsNavValores, CardsNavVisao } from "./CardsNav";
 import { Link } from 'react-router-dom'
+import { useState } from "react";
 
 export default function Nav (){
+
     return(
         <div className="flex flex-row justify-center">
             <Link to='/'>
@@ -13,7 +15,7 @@ export default function Nav (){
             </Link>
 
             <Link to='/'>
-                <CardsNavValores />
+               <CardsNavValores />
             </Link>
         </div>
     );
