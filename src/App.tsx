@@ -5,8 +5,8 @@ import { BrowserRouter, Route, Routes, Link} from 'react-router-dom'
  const App = () => {
   return(
     <BrowserRouter>
-    <Home/>
       <Routes>
+        <Route index element={<Home />} />
         <Route path="/" element={<Home />} />
 
       </Routes>
