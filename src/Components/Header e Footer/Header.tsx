@@ -5,13 +5,12 @@ import Titulo from '../Titulo';
 
 const Header =() =>{
     return(
-        <div className='w-full' style={{background: 'white', position:'fixed',}}>
+        <div className='w-full' style={{background: '#005C53', position:'fixed',}}>
             <div style={{
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'space-between',
                 height: 100,
-                borderBottomWidth: 1,
                 borderColor: 'black',
                 marginLeft: 50,
                 marginRight: 50,

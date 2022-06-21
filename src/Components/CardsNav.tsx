@@ -18,14 +18,14 @@ export const CardsNavMissao = () => {
 
             <div onClick={AbrirCard}
             className="
-            m-5 items-center flex-col hover:animate-bounce
-            w-14 h-16 justify-center border-white
+            m-5 items-center flex-col
+            w-14 h-16 justify-center
             hover:border-b-yellow-200 hover:font-bold transition-all ease-in-out
             "
             style={{
                 display: 'flex',
                 flexDirection: 'column',
-                borderWidth: 3,
+                color: 'white'
             }}>
                 <h1>Missão</h1>
                 <Heart size={40}/>
@@ -57,15 +57,15 @@ export const CardsNavVisao = () => {
         <div className="flex flex-col items-center">
             <div onClick={AbrirCard}
             className="
-            m-5 items-center flex-col hover:animate-bounce
-            w-14 h-16 justify-center border-white
+            m-5 items-center flex-col
+            w-14 h-16 justify-center
             hover:border-b-yellow-200 hover:font-bold transition-all ease-in-out
             "
             style={{
                 display: 'flex',
                 flexDirection: 'column',
-                borderWidth: 3,
-            }}>
+                color: 'white'
+                }}>
                 <h1>Visão</h1>
                 <PaintBrush size={40}/>
             </div>
@@ -98,14 +98,14 @@ export const CardsNavValores = () => {
         className="flex flex-col items-center">
             <div onClick={AbrirCard}
             className="
-            m-5 items-center flex-col hover:animate-bounce
-            w-14 h-16 justify-center border-white
+            m-5 items-center flex-col
+            w-14 h-16 justify-center
             hover:border-b-yellow-200 hover:font-bold transition-all ease-in-out
             "
             style={{
                 display: 'flex',
                 flexDirection: 'column',
-                borderWidth: 3,
+                color: 'white',
             }}>
                 <h1>Valores</h1>
                 <Books size={40}/>
