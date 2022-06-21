@@ -7,7 +7,6 @@ import { BrowserRouter, Route, Routes, Link} from 'react-router-dom'
     <BrowserRouter>
       <Routes>
         <Route index element={<Home />} />
-        <Route path="/" element={<Home />} />
 
       </Routes>
   </BrowserRouter>
