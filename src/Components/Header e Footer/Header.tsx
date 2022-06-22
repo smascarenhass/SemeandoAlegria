@@ -1,11 +1,10 @@
 import { User } from 'phosphor-react'
 import { Link } from 'react-router-dom';
-import { CardsNavSobreNos } from '../CardsNav';
 import Titulo from '../Titulo';
 
 const Header =() =>{
     return(
-        <div className='w-full' style={{background: '#005C53', position:'fixed',}}>
+        <div className='w-full' style={{background: '#101E24',}}>
             <div style={{
                 display: 'flex',
                 alignItems: 'center',
@@ -22,15 +21,29 @@ const Header =() =>{
                         />
                         <Titulo />
                 </div>
-                    <div className='flex flex-col items-center'>
-                        <h1
-                        style={{
-                            fontWeight: 'bold',
-                            fontSize: 15,
-                        }}
-                        className='hover:text-yellow-500 mt-2'
-                        >Ações que transformam. Resultados que emocionam.</h1>
-                    </div>
+
+                <div className='ml-56'>
+                    <Link className='m-2
+                    hover:border-b-2 transition-all'
+                    style={{color: 'white'}} to='/'>Home
+                    </Link>
+
+                    <Link className='m-2
+                    hover:border-b-2 transition-all'
+                    style={{color: 'white'}} to='Sobre'>Sobre
+                    </Link>
+
+                    <Link className='m-2
+                    hover:border-b-2 transition-all'
+                    style={{color: 'white'}} to='Donate'>Doações
+                    </Link>
+
+                    <Link className='m-2
+                    hover:border-b-2 transition-all'
+                    style={{color: 'white'}} to=''>Eventos
+                    </Link>
+                </div>
+                   
                     <User className='m-5 hover:text-yellow-500' size={25} />
             </div>
         </div>

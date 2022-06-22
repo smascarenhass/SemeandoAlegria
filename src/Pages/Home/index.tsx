@@ -8,19 +8,14 @@ import Titulo from "../../Components/Titulo";
  function Home(){
     return(
         <div className="flex flex-col">
-            <div>
-                <Header />
-            </div>
             
-            <div style={{
-                marginTop: 100,
-            }}>
+            <div>
                 
                 <main
                 style={{
+                    height: 700,
                     backgroundImage: 'url(https://mcdn.wallpapersafari.com/medium/41/15/gVEORe.jpg)',
-                    width: 1348,
-                    height: 600,
+                    backgroundSize: 'cover',
                     }}>
 
                 <h1 style={{
@@ -33,10 +28,8 @@ import Titulo from "../../Components/Titulo";
                 </h1> 
                 <Nav/>
                 </main>
-                <Footer />
-                
-                        </div>
             </div>
+    </div>
     );
  };
  export default Home;
