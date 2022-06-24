@@ -1,5 +1,6 @@
-import { AndroidLogo, AppleLogo, InstagramLogo, Link } from "phosphor-react";
+import { AndroidLogo, AppleLogo, InstagramLogo,} from "phosphor-react";
 import { CardsNavSobreNos } from "../CardsNav";
+import { Link } from "react-router-dom";
 
 
 export default function Footer(){
@@ -7,12 +8,12 @@ export default function Footer(){
         <div className="bg-black p-2 text-white flex flex-col items-start">
             <div className="bg-black p-5 text-white flex flex-row items-center">
                      <div className="flex flex-col m-5 mr-10">
-                         <a className="flex flex-row items-center hover:border-y-2 hover:border-white transition-all ease-linear" href='https://semeandoalegria.org.br/equipe/'>
-                                <div className="w-10 h-10 flex items-center">
+                         <Link to='/SobreNos' className="flex flex-row items-center hover:border-y-2 hover:border-white transition-all ease-linear">
+                                <div className="w-10 h-10 mr-1 flex items-center">
                                     <CardsNavSobreNos />
                                 </div>
                               Sobre Nós
-                              </a>
+                              </Link>
             
                         </div>
 
@@ -29,7 +30,7 @@ export default function Footer(){
                                           </a>
                                         <a  href="https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2Fongsemeandoalegria&e=ATMaIYiiaX1cAzHPHIPfHtTxwHWe8cmLDwQr_702JOFTu_1MZ98Wqn2gaOfYy67NJMLW4VHANJLUf8WUCw8ixA&s=1" className="flex flex-row items-center m-2">
                                         <div className="flex flex-row items-center p-2 border-2 border-black hover:border-y-white transition-all ease-linear">
-                                            <Link width={30} />
+                                            
                                             Link tree
                                         </div>
                                         </a>

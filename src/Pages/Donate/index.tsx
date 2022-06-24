@@ -1,3 +1,5 @@
+import { Link } from "phosphor-react";
+import ButtonDonate, {ButtonSaberMais } from "../../Components/ButtonsInfos";
 import Nav from "../../Components/Nav";
 
 
@@ -19,32 +21,35 @@ import Nav from "../../Components/Nav";
                     marginTop: 100,
                     marginLeft: 100,
                 }}
-                className="text-white text-4xl font-bold">
+                className="text-white text-6xl font-bold">
                        Sua Doação pode salvar uma vida,
                 </h1> 
 
                 <button
-                className="bg-black border-2 text-white p-5 pl-20 pr-20 mt-56 ml-60 hover:rounded-lg hover:font-bold">
-                    Saber mais
+                className=" 
+                  p-5 pl-20 pr-20 mt-56 ml-60 
+                ">
+                    <ButtonSaberMais/>
                 </button>
 
-                <div style={{
-                    marginTop: -65,
-                    marginLeft: 800,
-                    height: 50,
-                }}>
-                    <button
-                    className="bg-black border-2 text-white p-5 pl-20 pr-20 hover:rounded-lg hover:font-bold">
-                        Doar
-                    </button>
-                </div>
+                    <div style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        marginTop: -35,
+                        marginLeft: 700,
+                    
+                    }}>
+                       <ButtonDonate/>
+                    </div>
 
                 <h1 style={{
                     position: 'absolute',
                     marginTop: 70,
                     marginLeft: 800,
+                    color: 'white',
                 }}
-                className="text-white text-4xl font-bold">
+                className="text-6xl font-bold">
                        ou mudar seu rumo...
                 </h1> 
 

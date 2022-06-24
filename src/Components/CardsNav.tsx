@@ -127,19 +127,9 @@ export const CardsNavValores = () => {
 export const CardsNavSobreNos = () => {
 
     return(
-        <div 
-        className="
-        m-3 items-center flex-col
-        w-4 h-6 justify-center border-0
-         hover:font-bold hover:w-2 hover:h-4 
-          transition-all ease-in-out
-        "
-        style={{
-            display: 'flex',
-            flexDirection: 'column',
-        }}>
+        <div>
 
-            <UsersThree size={40}/>
+            <UsersThree size={30}/>
 
         </div>
     );

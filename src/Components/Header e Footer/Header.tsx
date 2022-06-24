@@ -1,6 +1,7 @@
 import { User } from 'phosphor-react'
 import { Link } from 'react-router-dom';
 import Titulo from '../Titulo';
+import logosemeandoalegria from 'C:/Users/Mascarenhas/Documents/Semeando Alegria/SemeandoAlegria/src/Images/logosemeandoalegria.png'
 
 const Header =() =>{
     return(
@@ -15,14 +16,14 @@ const Header =() =>{
                 marginRight: 50,
             }}>
                 <div className='w-20 h-20 items-center justify-center flex flex-row ml-16'>
-                    <img src="https://semeandoalegria.org.br/wp-content/uploads/2017/09/logo-semeandoalegria_150.png"
+                    <img src={logosemeandoalegria}
                        width={50}
                        className='m-5 hover:w-14'
                         />
                         <Titulo />
                 </div>
 
-                <div className='ml-56'>
+                <div className='mr-60'>
                     <Link className='m-2
                     hover:border-b-2 transition-all'
                     style={{color: 'white'}} to='/'>Home
@@ -40,11 +41,10 @@ const Header =() =>{
 
                     <Link className='m-2
                     hover:border-b-2 transition-all'
-                    style={{color: 'white'}} to=''>Eventos
+                    style={{color: 'white'}} to='/Eventos'>Eventos
                     </Link>
                 </div>
                    
-                    <User className='m-5 hover:text-yellow-500' size={25} />
             </div>
         </div>
     );
