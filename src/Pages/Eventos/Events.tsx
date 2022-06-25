@@ -1,5 +1,5 @@
 import { ReactElement, JSXElementConstructor, ReactFragment, ReactPortal, ReactNode } from "react";
-import CardArraia from 'C:/Users/Mascarenhas/Documents/Semeando Alegria/SemeandoAlegria/src/Images/CardsEvents/CardArraia.jpg'
+import CardArraia from '/src/Images/CardsEvents/CardArraia.jpg'
 
 export default function Events(){
     

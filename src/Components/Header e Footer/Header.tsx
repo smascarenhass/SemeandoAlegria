@@ -1,7 +1,7 @@
 import { User } from 'phosphor-react'
 import { Link } from 'react-router-dom';
 import Titulo from '../Titulo';
-import logosemeandoalegria from 'C:/Users/Mascarenhas/Documents/Semeando Alegria/SemeandoAlegria/src/Images/logosemeandoalegria.png'
+import logosemeandoalegria from '/src/Images/logosemeandoalegria.png'
 
 const Header =() =>{
     return(
