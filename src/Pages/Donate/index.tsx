@@ -5,58 +5,43 @@ import Nav from "../../Components/Nav";
 
  function Home(){
     return(
-        <div className="flex flex-col">
+        <div 
+        style={{
+            backgroundImage: 'url(https://www.unicef.org/brazil/sites/unicef.org.brazil/files/styles/press_release_feature/public/UN0292287.jpg?itok=AwdD2n-S)',
+            backgroundSize: 'cover',
+            }} className="flex flex-col">
             
-            
-                
-                <div
-                style={{
-                    height: 700,
-                    backgroundImage: 'url(https://www.unicef.org/brazil/sites/unicef.org.brazil/files/styles/press_release_feature/public/UN0292287.jpg?itok=AwdD2n-S)',
-                    backgroundSize: 'cover',
-                    }}>
 
-                <h1 style={{
-                    position: 'absolute',
-                    marginTop: 100,
-                    marginLeft: 100,
-                }}
-                className="text-white text-6xl font-bold">
-                       Sua Doação pode salvar uma vida,
-                </h1> 
-
-                <div
-                className=" 
-                  p-5 pl-20 pr-20 mt-56 ml-60 
-                ">
-                    <ButtonSaberMais/>
+                <div className="m-5">
+                    <h1
+                    className="text-white text-6xl font-bold">
+                           Sua Doação pode salvar uma vida,
+                    </h1>
                 </div>
 
-                    <div style={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        marginTop: -35,
-                        marginLeft: 700,
-                    
-                    }}>
-                       <ButtonDonate/>
+                <div className="mt-10">
+
+                    <div className="flex flex-col ml-20 items-start ">
+                        <div className="m-10">
+                            <ButtonSaberMais/>
+                        </div>
                     </div>
-
-                <h1 style={{
-                    position: 'absolute',
-                    marginTop: 70,
-                    marginLeft: 800,
-                    color: 'white',
-                }}
-                className="text-6xl font-bold">
-                       ou mudar seu rumo...
-                </h1> 
-
+                    <div className="flex flex-col mr-20 items-end ">
+                        <div className="m-10">
+                            <ButtonDonate/>
+                        </div>
+                    </div>
                 </div>
 
-                
-            
+                <div className="flex m-10 ml-20 flex-row justify-end">
+                    <h1 style={{
+                        color: 'black',
+                    }}
+                    className=" text-6xl font-bold">
+                           ou mudar seu rumo...
+                    </h1>
+                </div>
+
     </div>
     );
  };

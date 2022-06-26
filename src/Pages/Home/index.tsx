@@ -17,7 +17,7 @@ import Titulo from "../../Components/Titulo";
                 <main>
                         <Nav/>
 
-                <h1 className="mt-20 text-white text-6xl font-bold">
+                <h1 className="ml-5 mt-20 text-white text-6xl font-bold">
                        Ações que transformam Resultados que emocionam
                 </h1> 
                 

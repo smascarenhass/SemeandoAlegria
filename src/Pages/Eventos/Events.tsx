@@ -23,11 +23,13 @@ export default function Events(){
     );};
 
     return(
-        <div className="flex flex-col items-center">
+        <div style={{backgroundColor: '#302828'}} className="flex flex-col items-center">
 
-            <h1 className="text-4xl font-semibold mt-5">Venha fazer parte desses maravilhosos <br/> momentos em que passamos juntos.</h1>
+            <h1 className="text-white text-4xl font-bold mt-5">Venha fazer participar</h1>
 
-            <div className="flex flex-row items-center justify-center">
+            <div className="flex flex-row items-center justify-center mt-10
+            border-t-2 white
+            ">
             
                 <div
                 style={{
