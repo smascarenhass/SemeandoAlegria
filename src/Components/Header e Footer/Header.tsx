@@ -5,25 +5,21 @@ import logosemeandoalegria from '/src/Images/logosemeandoalegria.png'
 
 const Header =() =>{
     return(
-        <div className='w-full' style={{background: '#101E24',}}>
-            <div style={{
+        <div style={{background: '#101E24',}}>
+            <div className='p-2' style={{
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'space-between',
-                height: 100,
-                borderColor: 'black',
-                marginLeft: 50,
-                marginRight: 50,
             }}>
-                <div className='w-20 h-20 items-center justify-center flex flex-row ml-16'>
+                <div className='items-center justify-center flex flex-row'>
                     <img src={logosemeandoalegria}
-                       width={50}
-                       className='m-5 hover:w-14'
+                       width={40}
+                       className='m-2'
                         />
                         <Titulo />
                 </div>
 
-                <div className='mr-60'>
+                <div>
                     <Link className='m-2
                     hover:border-b-2 transition-all'
                     style={{color: 'white'}} to='/'>Home

@@ -7,26 +7,20 @@ import Titulo from "../../Components/Titulo";
 
  function Home(){
     return(
-        <div className="flex flex-col">
+        <div style={{
+            backgroundImage: 'url(https://mcdn.wallpapersafari.com/medium/41/15/gVEORe.jpg)',
+            backgroundSize: 'cover',
+            }} className="flex flex-col">
             
-            <div>
+            <div className="mt-10 mb-80">
                 
-                <main
-                style={{
-                    height: 700,
-                    backgroundImage: 'url(https://mcdn.wallpapersafari.com/medium/41/15/gVEORe.jpg)',
-                    backgroundSize: 'cover',
-                    }}>
+                <main>
+                        <Nav/>
 
-                <h1 style={{
-                    position: 'absolute',
-                    marginTop: 250,
-                    marginLeft: 400,
-                }}
-                className="text-white text-6xl font-bold">
+                <h1 className="mt-20 text-white text-6xl font-bold">
                        Ações que transformam Resultados que emocionam
                 </h1> 
-                <Nav/>
+                
                 </main>
             </div>
     </div>

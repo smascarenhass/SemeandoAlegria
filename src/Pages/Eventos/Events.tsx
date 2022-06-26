@@ -9,6 +9,7 @@ export default function Events(){
 }){
     return(
         <div className="flex flex-col items-center">
+
             <div>
                 <h1 className="text-3xl font-bold m-2 mb-5 text-white">{props.name}</h1>
             </div>
