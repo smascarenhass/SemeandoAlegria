@@ -5,7 +5,10 @@ import { useState } from "react";
 export default function Nav (){
 
     return(
-        <div className="flex flex-row justify-center">
+        <div style={{backgroundColor: '#101E24'}} 
+        className="flex flex-col m-2 mt-10
+        justify-center rounded-full
+        ">
             <Link to='/'>
                 <CardsNavMissao />
             </Link>
