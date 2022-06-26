@@ -7,7 +7,7 @@ import Nav from "../../Components/Nav";
     return(
         <div className="flex flex-col">
             
-            <div>
+            
                 
                 <div
                 style={{
@@ -25,12 +25,12 @@ import Nav from "../../Components/Nav";
                        Sua Doação pode salvar uma vida,
                 </h1> 
 
-                <button
+                <div
                 className=" 
                   p-5 pl-20 pr-20 mt-56 ml-60 
                 ">
                     <ButtonSaberMais/>
-                </button>
+                </div>
 
                     <div style={{
                         display: 'flex',
@@ -56,7 +56,7 @@ import Nav from "../../Components/Nav";
                 </div>
 
                 
-            </div>
+            
     </div>
     );
  };

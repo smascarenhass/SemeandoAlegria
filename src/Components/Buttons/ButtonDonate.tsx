@@ -1,7 +1,5 @@
 import { Heart, Activity, WhatsappLogo, Bank } from 'phosphor-react';
 import { useState } from 'react';
-import Danates from '../Pages/Donates';
-
 
 const ButtonDonate = () => {
 
@@ -28,7 +26,7 @@ const ButtonDonate = () => {
             <span className='h-5'></span>
 
             <div>
-              <button onClick={} className='bg-red-600 p-2 rounded-full'><span>Fazer doação</span></button>
+              <button className='bg-red-600 p-2 rounded-full'><span>Fazer doação</span></button>
             </div>
 
             <span className='h-10'></span>
