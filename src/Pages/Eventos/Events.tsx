@@ -23,19 +23,17 @@ export default function Events(){
     );};
 
     return(
-        <div style={{backgroundColor: '#302828'}} className="flex flex-col items-center">
+        <div style={{backgroundColor: '#302828'}} className="flex flex-col items-center pb-8">
 
             <h1 className="text-white text-4xl font-bold mt-5">Venha fazer participar</h1>
 
             <div className="flex flex-row items-center justify-center mt-10
-            border-t-2 white
+            border-t-2
             ">
             
                 <div
                 style={{
                     backgroundColor: '#101E24',
-                    width: 350,
-                    height: 450,
                 }}
                 className="
                 flex flex-col items-center justify-center
