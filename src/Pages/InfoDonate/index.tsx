@@ -4,7 +4,7 @@ import { Bank, Money } from "phosphor-react";
 
 function InfoDonate(){
     return(
-        <div style={{backgroundColor: '#5e636e',}} className="flex flex-col items-center">
+        <div style={{backgroundColor: '#5e636e',}} className="flex flex-col items-center p-10 pb-14">
 
             <h1 className="text-3xl text-white font-bold mt-5 m-2">
                 Todas as doações são validas.
