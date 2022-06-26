@@ -8,7 +8,7 @@ import Titulo from "../../Components/Titulo";
  function Home(){
     return(
         <div style={{
-            backgroundImage: 'url(https://mcdn.wallpapersafari.com/medium/41/15/gVEORe.jpg)',
+            backgroundImage: 'url(https://raw.githubusercontent.com/smascarenhass/SemeandoAlegria/main/src/Images/homesemeandoalegria.jpeg)',
             backgroundSize: 'cover',
             }} className="flex flex-col">
             

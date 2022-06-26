@@ -15,7 +15,7 @@ import Nav from "../../Components/Nav";
                 <div className="m-5">
                     <h1
                     className="text-white text-6xl font-bold">
-                           Sua Doação pode salvar uma vida,
+                           Sua Doação pode transformar uma vida,
                     </h1>
                 </div>
 

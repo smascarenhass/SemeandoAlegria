@@ -65,7 +65,7 @@ export default function Sobre(){
             <div className="flex flex-col items-center">
                 <div>
                     <h1 className="text-4xl font-bold mt-10">
-                        Qual os nossos valores?
+                        Quais os nossos valores?
                     </h1>
                 </div>
 
