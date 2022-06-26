@@ -7,19 +7,25 @@ export default function Nav (){
     return(
         <div style={{backgroundColor: '#101E24'}} 
         className="flex flex-col m-2 mt-10
-        justify-center rounded-full
+        justify-evenly rounded-2xl
         ">
-            <Link to='/'>
-                <CardsNavMissao />
-            </Link>
+            <div>
+                <Link to='/'>
+                    <CardsNavMissao />
+                </Link>
+            </div>
 
-            <Link to='/'>
-                <CardsNavVisao />
-            </Link>
+            <div className="mt-5">
+                <Link to='/'>
+                    <CardsNavVisao />
+                </Link>
+            </div>
 
-            <Link to='/'>
-               <CardsNavValores />
-            </Link>
+            <div className="mt-5">
+                <Link to='/'>
+                   <CardsNavValores />
+                </Link>
+            </div>
         </div>
     );
 };
