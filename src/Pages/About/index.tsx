@@ -1,5 +1,6 @@
 import Footer from "../../Components/Header e Footer/Footer";
 import Header from "../../Components/Header e Footer/Header";
+import Nav from "../../Components/Nav";
 
 
 
@@ -7,6 +8,8 @@ export default function Sobre(){
     return(
         <div>
             <div className="flex flex-col items-center ">
+                 <Nav/>
+
                 <h1 className="text-4xl font-bold mt-10">
                     Quem somos?
                 </h1>

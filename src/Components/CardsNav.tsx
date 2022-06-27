@@ -14,7 +14,7 @@ export const CardsNavMissao = () => {
 
     return(
 
-        <div className="flex flex-row items-center">
+        <div className="flex flex-col items-center">
 
             <div onClick={AbrirCard}
             className="
@@ -36,7 +36,7 @@ export const CardsNavMissao = () => {
             
             <div 
             style={{borderRadius: 12}}
-            className="bg-red-100 ml-52 w-96 h-48 m-2
+            className="bg-red-100 w-96 h-48 m-2
             flex items-center flex-col border-2 
             border-yellow-300">
                 <h1 className="mt-4 text-2xl font-bold">Nossa Missão é:</h1>
@@ -59,7 +59,7 @@ export const CardsNavVisao = () => {
     };
 
     return(
-        <div className="flex flex-row items-center">
+        <div className="flex flex-col items-center">
             <div onClick={AbrirCard}
             className="
             m-5 items-center flex-col
@@ -79,7 +79,7 @@ export const CardsNavVisao = () => {
             
                 <div 
                 style={{borderRadius: 12}}
-                className="bg-red-100 w-96 h-48 ml-52 m-2
+                className="bg-red-100 w-96 h-48 m-2
                 flex items-center flex-col border-2 border-yellow-300">
 
                     <h1 className="mt-4 text-2xl font-bold">Visamos para o nosso futuro</h1>
@@ -101,7 +101,7 @@ export const CardsNavValores = () => {
     return(
         <div
         style={{borderRadius: 12}} 
-        className="flex flex-row items-center">
+        className="flex flex-col items-center">
             <div onClick={AbrirCard}
             className="
             m-5 items-center flex-col
@@ -121,7 +121,7 @@ export const CardsNavValores = () => {
             
             <div 
             style={{borderRadius: 12}}
-            className="bg-red-100 w-96 h-48 ml-52 m-2
+            className="bg-red-100 w-96 h-48 m-2
             flex items-center flex-col border-2 border-yellow-300">
                 <h1 className="mt-4 text-2xl font-bold">O que temos como valores</h1>
                 <p className="m-5">Solidariedade, transparência, igualdade, diversidade, respeito e responsabilidade.</p>

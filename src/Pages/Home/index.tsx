@@ -11,7 +11,6 @@ import Nav from "../../Components/Nav";
 
             
             <div className="pt-20 pb-80 flex flex-row">
-            <Nav/>
 
                 <main>
 

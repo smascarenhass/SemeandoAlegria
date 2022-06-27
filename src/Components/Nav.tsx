@@ -6,23 +6,23 @@ export default function Nav (){
 
     return(
         <div style={{backgroundColor: '#101E24'}} 
-        className="flex flex-col m-2 mt-10
+        className="flex flex-row m-2 mt-10
         justify-evenly rounded-2xl
         ">
             <div>
-                <Link to='/'>
+                <Link to=''>
                     <CardsNavMissao />
                 </Link>
             </div>
 
-            <div className="mt-5">
-                <Link to='/'>
+            <div>
+                <Link to=''>
                     <CardsNavVisao />
                 </Link>
             </div>
 
-            <div className="mt-5">
-                <Link to='/'>
+            <div>
+                <Link to=''>
                    <CardsNavValores />
                 </Link>
             </div>
