@@ -25,7 +25,7 @@ export const CardsNavMissao = () => {
             style={{
                 display: 'flex',
                 flexDirection: 'column',
-                color: 'white'
+                color: 'black'
             }}>
                 <h1>Missão</h1>
                 <Heart size={40}/>
@@ -69,7 +69,7 @@ export const CardsNavVisao = () => {
             style={{
                 display: 'flex',
                 flexDirection: 'column',
-                color: 'white'
+                color: 'black'
                 }}>
                 <h1>Visão</h1>
                 <PaintBrush size={40}/>
@@ -111,7 +111,7 @@ export const CardsNavValores = () => {
             style={{
                 display: 'flex',
                 flexDirection: 'column',
-                color: 'white',
+                color: 'black',
             }}>
                 <h1>Valores</h1>
                 <Books size={40}/>

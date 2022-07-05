@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function Nav (){
 
     return(
-        <div style={{backgroundColor: '#101E24'}} 
+        <div style={{}} 
         className="flex flex-row m-2 mt-10
         justify-evenly rounded-2xl
         ">

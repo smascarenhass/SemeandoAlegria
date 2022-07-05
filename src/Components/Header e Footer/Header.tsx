@@ -32,7 +32,7 @@ const Header =() =>{
 
                     <Link className='m-2
                     hover:border-b-2 transition-all'
-                    style={{color: 'white'}} to='Donate'>Doações
+                    style={{color: 'white'}} to='Donate'>Ajude-nos
                     </Link>
 
                     <Link className='m-2

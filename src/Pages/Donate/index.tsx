@@ -1,44 +1,38 @@
-import { Link } from "phosphor-react";
 import ButtonDonate, {ButtonSaberMais } from "../../Components/ButtonsInfos";
-import Nav from "../../Components/Nav";
 
 
  function Home(){
     return(
         <div 
         style={{
-            backgroundImage: 'url(https://www.unicef.org/brazil/sites/unicef.org.brazil/files/styles/press_release_feature/public/UN0292287.jpg?itok=AwdD2n-S)',
+            backgroundImage: 'url(https://crispitanga.com.br/wp-content/uploads/2017/01/crianc%CC%A7as-felizes-1030x579.jpg)',
             backgroundSize: 'cover',
-            }} className="flex flex-col">
+            }} className="flex flex-col items-center">
             
 
-                <div className="m-5">
+                <div className="m-10">
                     <h1
-                    className="text-white text-6xl font-bold">
-                           Sua Doação pode transformar uma vida,
+                    className="text-black text-6xl font-bold">
+                           Seja um voluntário
                     </h1>
                 </div>
 
                 <div className="mt-10">
 
-                    <div className="flex flex-col ml-20 items-start ">
-                        <div className="m-10">
+                    <div className="flex flex-col">
+                        <div className="m-28">
                             <ButtonSaberMais/>
                         </div>
                     </div>
-                    <div className="flex flex-col mr-20 items-end ">
-                        <div className="m-10">
-                            <ButtonDonate/>
-                        </div>
-                    </div>
+    
                 </div>
 
-                <div className="flex m-10 ml-20 flex-row justify-end">
+                <div className="flex m-10 flex-row">
                     <h1 style={{
                         color: 'black',
                     }}
                     className=" text-6xl font-bold">
-                           ou mudar seu rumo...
+                            e nos a ajudar
                     </h1>
                 </div>
 
